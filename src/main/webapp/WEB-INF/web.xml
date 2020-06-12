@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>WeatherPlanning</display-name>
+  
+  <servlet>
+    <servlet-name>HomePageController</servlet-name>
+    <servlet-class>csci310.HomePageController</servlet-class>
+  </servlet>
+  
+      <servlet>
+    <servlet-name>AnalyticsInfoPageController</servlet-name>
+    <servlet-class>csci310.AnalyticsInfoPageController</servlet-class>
+  </servlet>
+  
+        <servlet>
+    <servlet-name>VacationPageController</servlet-name>
+    <servlet-class>csci310.VacationPageController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ActivityPlanningController</servlet-name>
+    <servlet-class>csci310.ActivityPlanningController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>csci310.RegisterController</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>csci310.LoginController</servlet-class>
+  </servlet>
+   
+  <servlet-mapping>
+    <servlet-name>HomePageController</servlet-name>
+    <url-pattern>/HomePageController/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AnalyticsInfoPageController</servlet-name>
+    <url-pattern>/AnalyticsInfoPageController/*</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>VacationPageController</servlet-name>
+    <url-pattern>/VacationPageController/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ActivityPlanningController</servlet-name>
+    <url-pattern>/ActivityPlanningController/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
